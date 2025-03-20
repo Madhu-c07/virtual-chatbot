@@ -24,17 +24,14 @@ function App() {
 
 export default App; */
 
-import React from 
-'react';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+
 function App() {
 return (
 <div className="App">
-<header className="App-header">
-<p>Hello, I'm learning React!</p>
-<h2>My Journey with React</h2>
-</header>
+<Header />
 </div>
 );
 }
-export default App;
+export default App; 
